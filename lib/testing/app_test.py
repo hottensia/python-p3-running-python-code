@@ -25,6 +25,8 @@ class TestAppPy:
         '''
         prints "Hello World! Pass this test, please."
         '''
+
+
         captured_out = io.StringIO()
         sys.stdout = captured_out
         runpy.run_path("lib/app.py")
